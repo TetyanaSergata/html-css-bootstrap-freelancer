@@ -1,7 +1,8 @@
-
+/* General */
 .padding_top_80 {
   padding-top: 80px;
 }
+
 .padding_bottom_80 {
   padding-bottom: 80px;
 }
@@ -10,8 +11,8 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
-
 }
+
 /* .wrapper_60 {
   width: 60%;
   margin: 0 auto; */
@@ -33,9 +34,6 @@
   vertical-align: middle;
   line-height: 20px;
   text-decoration: none;
-  /* color:white;
-  text-transform: uppercase;
-  font-weight: bold; */
 }
 
 a.logo:hover,
@@ -82,8 +80,6 @@ a.menu_item:focus{
   color: #1ABC9C;
 }
 
-
-
 /* Jumbotron */
 .jumbo{
   margin-top: 80px;
@@ -111,8 +107,50 @@ a.menu_item:focus{
   margin: 0 auto;
 }
 
+/* Star-icon */
+
+.star_icon{
+  /* padding: 15px 100px; */
+  text-align:center;
+}
+.star_icon div{
+  display: inline-block;
+}
+
+.white_star{
+  vertical-align: middle;
+  font-size: 40px;
+  color: white;
+  padding: 20px 5px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider{
+  margin-top:5px;
+  margin-bottom:5px;
+  height:5px;
+  /* width: 30%; */
+  width: 150px;
+  border-top: 4px solid white;
+  border-radius: 2px;
+}
+
+.star_icon p{
+  /* padding-top: 20px; */
+  font-size: 20px;
+  color: white;
+}
+
 
 /* Main column */
+.color_blue{
+  color: #2C3E50;
+}
 /* Portfolio */
 
 .icon_box{
@@ -122,6 +160,12 @@ a.menu_item:focus{
   background-color: violet;
   border-radius: 3%;
   padding: 0 10px;
+}
+
+.img-cabin{
+  /* max-width: 100%;
+  height: auto; */
+  vertical-align: middle;
 }
 
 /* Footer */
@@ -140,7 +184,11 @@ a.menu_item:focus{
     width: 100%;
     margin: 0 auto;
   }
+  .divider{
+    width: 80px;
+  }
 }
+
 @media screen and (min-width: 768px) {
   .wrapper_md_60 {
     width: 60%;
@@ -159,12 +207,16 @@ a.menu_item:focus{
 @media screen and (max-width: 992px) and (min-width: 768px){
 
 }
+@media screen and (min-width: 992px){
 
-@media all and (min-width: 992px){
   .jumbo_text h1{
     font-size: 62px;
   }
   .logo{
     font-size: 26px;
   }
+  .star_icon p{
+    font-size: 26px;
+  }
+
 }
