@@ -12,30 +12,44 @@
   </head>
   <body>
     <header>
-          <!-- Navbar left -->
+          <!-- Header top -->
       <nav class="navbar">
         <div class="container">
           <div class="row">
             <div class="col-xs-8 col-sm-5 col-lg-5">
-              <div class="logo float_left">
-                <a href="#">Start Bootstrap</a>
-              </div>
+              <a href="#" class="logo text_transform">
+                Start Bootstrap
+              </a>
             </div>
-            <div class="col-xs-4 col-sm-7">
-              <div class="menu float_right">
-                <a href="#">Menu</a>
-                <i class="fas fa-bars ico_hamburger lg_display_none"></i>
+            <div class="col-xs-4 col-sm-7 text-right">
+              <div class="menu">
+                <a href="#" class="btn btn_green hidden-lg hidden-md text_transform">
+                  Menu
+                  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </a>
+                <ul class="visible-lg visible-md">
+                  <li>Portfolio</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                </ul>
               </div>
             </div>
           </div>
+        </div>
       </nav>
+      <!-- Fine Header top -->
       <!-- Jumbotron -->
-      <section class="jumbo">
+      <section class="jumbo bg_green">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 position_relative">
-              <div class="center_image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="col-xs-12">
+              <div class="jumbo_image">
+                <img src="img/avataaars.svg"
+                alt="laughing boy">
+              </div>
+              <div class="jumbo_text">
+                <h1 class="text_transform text-center">Start Bootstrap
+                </h1>
               </div>
             </div>
           </div>
@@ -43,55 +57,121 @@
       </section>
     </header>
       <!-- Main column -->
-      <main>
-        <section class="portfolio">
-          <div class="container">
-            <div class="row portfolio_item">
-              <div class="col-xs-12 col-md-12">
-                <div class="star">
-                </div>
+    <main>
+      <section class="portfolio padding_top_80 padding_bottom_80">
+        <div class="container">
+
+          <h2 class="text-center">Portfolio</h2>
+        </div>
+        <!-- <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="star">
               </div>
             </div>
           </div>
-        <!-- Icon-box -->
-          <div class="container">
-            <div class="row portfolio_item">
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="icon_box">
-                </div>
+        </div> -->
+
+      <!-- Icon-box -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
               </div>
             </div>
-
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="icon_box">
+              </div>
+            </div>
           </div>
-        </section>
-
-
-
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about" class="bg_green padding_top_80 padding_bottom_80">
+        <div class="wrapper_md_60 wrapper_xs_100">
+          <h2 class="text-center">Lorem</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+      <!-- contact -->
+      <section id="contact" class="padding_top_80 padding_bottom_80">
+        <div class="wrapper_md_60 wrapper_xs_100">
+          <h2 class="text-center">Lorem</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
 
     </main>
-    <footer>
+    <!-- /main -->
 
+
+
+
+
+
+      <!-- footer -->
+    <footer>
+      <!-- footer_top -->
+      <div class="footer_top padding_top_80 padding_bottom_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /footer_top -->
+
+      <!-- footer_bottom -->
+      <div class="footer_bottom text-center">
+        Copyright © Your Website 2019
+      </div>
+      <!-- /footer_bottom -->
     </footer>
+    <!-- /footer -->
+
+
+
 
   </body>
 </html>
