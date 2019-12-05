@@ -140,7 +140,8 @@ a.menu_item:focus{
   border-radius: 2px;
 }
 
-.star_icon p{
+.star_icon p,
+.text_about{
   /* padding-top: 20px; */
   font-size: 20px;
   color: white;
@@ -152,11 +153,15 @@ a.menu_item:focus{
   color: #2C3E50;
 }
 /* Portfolio */
-.portfolio h2{
-  font-size: 45px;
+.portfolio h2,
+.bg_green h2{
   padding-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.portfolio h2{
+  font-size: 45px;
   color: #2C3E50;
 }
 
@@ -175,8 +180,31 @@ a.menu_item:focus{
 .icon_box:hover,
 .icon_box:active,
 .icon_box:focus{
+
   background-color: #1ABC9C;
   cursor: pointer;
+}
+
+/* About section */
+.bg_green h2{
+  color: white;
+  font-size: 40px;
+}
+
+.button_about a{
+  color: white;
+}
+
+.btn_white{
+  font-size: 20px;
+
+}
+
+.button_about{
+  margin: 1px solid white;
+  padding: 30px;
+  color: white;
+  border-color: white;
 }
 
 
